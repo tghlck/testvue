@@ -32,6 +32,9 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>Balance</v-toolbar-title>
     </v-app-bar>
+
+ <Login/>
+
     <v-footer
       color="indigo"
       app
@@ -42,7 +45,12 @@
 </template>
 
 <script>
+import Login from './loginForm';
+
   export default {
+    components: {
+    Login,
+  },
     props: {
       source: String,
     },
