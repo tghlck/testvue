@@ -1,6 +1,6 @@
 <template>
  <div>
-   <v-navigation-drawer
+    <v-navigation-drawer
       v-model="drawer"
       app
     >
@@ -32,7 +32,13 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>Balance</v-toolbar-title>
     </v-app-bar>
-    
+
+    <v-footer
+      color="indigo"
+      app
+    >
+      <span class="white--text">Balance &copy; 2020</span>
+    </v-footer>
  </div>
 </template>
 

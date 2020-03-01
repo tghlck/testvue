@@ -1,25 +1,23 @@
 <template>
   <v-app>
     <v-content>
-      <headBarDrawer />
+     <layoutDrawer/>
       <Login />
-      <footBar />
+     
       <router-view></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import footBar from "./layout/footBar";
-import headBarDrawer from "./layout/headBarDrawer";
+import layoutDrawer from "./layout/layoutDrawer";
 import Login from "./components/loginForm";
 
 export default {
   name: "App",
 
   components: {
-    footBar,
-    headBarDrawer,
+    layoutDrawer,
     Login
   },
 

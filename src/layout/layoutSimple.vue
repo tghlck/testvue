@@ -1,5 +1,15 @@
 <template>
  <div>
+   
+    <v-app-bar
+      app
+      color="indigo"
+      dark
+    >
+
+      <v-toolbar-title>Balance</v-toolbar-title>
+    </v-app-bar>
+
     <v-footer
       color="indigo"
       app
@@ -10,12 +20,14 @@
 </template>
 
 <script>
+
+
   export default {
+    
     props: {
       source: String,
     },
     data: () => ({
-      drawer: null,
     }),
   }
 </script>
