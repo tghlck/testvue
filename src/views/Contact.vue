@@ -2,22 +2,26 @@
   <v-container>
     <v-layout>
       <v-flex xs12>
-        <h1 class="display-1">Contact Page</h1>
-        <p>
-         CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT
-        </p>
+         <Contact />
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 
-<script>
 // @ is an alias to /src
 
+<script>
+import Contact from "../components/contactForm";
+
 export default {
-  name: 'Contact',
+  name: "App",
+
   components: {
-  
-  }
-}
+    Contact
+  },
+
+  data: () => ({
+    drawer: null
+  })
+};
 </script>
