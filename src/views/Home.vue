@@ -2,13 +2,16 @@
   <v-container>
     <v-layout>
       <v-flex xs12 justify-center>
-         <v-container fluid text-center>
+         <v-container fluid>
     <v-row>
       <v-col cols="12">
         <v-img src="../assets/Balance-2.png" contain max-height="200px"> </v-img>
-          <h2 class="centered" >Balance</h2>
+      
       </v-col>
 
+    </v-row>
+    <v-row>
+      <Test />
     </v-row>
   </v-container> 
     
@@ -18,11 +21,13 @@
 </template>
 
 <script>
+import Test from "../components/test";
 // @ is an alias to /src
 
 export default {
   name: 'Home',
   components: {
+    Test
   
   }
 }
