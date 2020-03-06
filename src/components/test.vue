@@ -30,7 +30,7 @@
          <v-col cols="6">
             <v-card     
           height="100%" width="750px"
-          color="#3f51b5" dark
+          color="#3fb584" dark
           hover ripple>
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
@@ -50,7 +50,7 @@
          <v-col cols="6">
           <v-card     
           height="100%" width="750px"
-          color="#3f51b5" dark
+          color="#b53f74" dark
           hover ripple>
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
@@ -70,7 +70,7 @@
          <v-col cols="6">
           <v-card 
           height="100%" width="750px"
-          color="#3f51b5" dark
+          color="#b0813c" dark
           hover ripple>
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
