@@ -75,7 +75,7 @@
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       
-      <v-toolbar-title>B A L A N C E<span> <div class="overline">My Dashboard</div></span> </v-toolbar-title>
+      <v-toolbar-title class="font-italic font-weight-light"> B A L A N C E .<span> <div class="overline font-weight-bold">My Dashboard</div></span> </v-toolbar-title>
       
 <v-spacer>
 </v-spacer>

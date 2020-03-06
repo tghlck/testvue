@@ -16,7 +16,7 @@
             <v-card-title class="pt-0">
               <v-list-item three-line>
                 <v-list-item-content>
-                  <div class="overline mb-4">My Survey</div>
+                  <div class="overline font-weight-bold mb-4">My Survey</div>
                   <v-list-item-title class="headline mb-1">Survey</v-list-item-title>
                   <v-list-item-subtitle>A short questionnaire.</v-list-item-subtitle>
                 </v-list-item-content>
@@ -36,7 +36,7 @@
             <v-card-title class="pt-0">
               <v-list-item three-line>
                 <v-list-item-content>
-                  <div class="overline mb-4">My Data</div>
+                  <div class="overline font-weight-bold mb-4">My Data</div>
                   <v-list-item-title class="headline mb-1">Data</v-list-item-title>
                   <v-list-item-subtitle>Collection of your personalized data.</v-list-item-subtitle>
                 </v-list-item-content>
@@ -56,7 +56,7 @@
             <v-card-title class="pt-0">
               <v-list-item three-line>
                 <v-list-item-content>
-                  <div class="overline mb-4">My Journal</div>
+                  <div class="overline font-weight-bold mb-4">My Journal</div>
                   <v-list-item-title class="headline mb-1">Journal</v-list-item-title>
                   <v-list-item-subtitle>A place to keep your thoughts.</v-list-item-subtitle>
                 </v-list-item-content>
@@ -76,12 +76,12 @@
             <v-card-title class="pt-0">
               <v-list-item three-line>
                 <v-list-item-content>
-                  <div class="overline mb-4">Logout</div>
+                  <div class="overline font-weight-bold mb-4">Logout</div>
                   <v-list-item-title class="headline mb-1">See you soon!</v-list-item-title>
                   <v-list-item-subtitle>Logout of your account here.</v-list-item-subtitle>
                 </v-list-item-content>
                 <v-list-item-avatar tile size="80">
-                  <v-icon size="80px" light>mdi-account</v-icon>
+                  <v-icon size="80px" light>mdi-account-arrow-right</v-icon>
                 </v-list-item-avatar>
               </v-list-item>
             </v-card-title>
@@ -91,12 +91,6 @@
     </v-container>
   </div>
 </template>
-
-<style scoped>
-.card:hover .avatar {
-  background-color: #3f51b5 !important;
-}
-</style>
 
 <script>
 export default {

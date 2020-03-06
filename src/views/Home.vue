@@ -11,7 +11,7 @@
 
     </v-row>
     <v-row>
-      <Test />
+      <dashboardButtons />
     </v-row>
   </v-container> 
     
@@ -21,13 +21,13 @@
 </template>
 
 <script>
-import Test from "../components/test";
+import dashboardButtons from "../components/dashboardButtons";
 // @ is an alias to /src
 
 export default {
   name: 'Home',
   components: {
-    Test
+    dashboardButtons
   
   }
 }
