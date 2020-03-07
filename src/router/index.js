@@ -25,6 +25,11 @@ const routes = [
   name: 'Data',
   component: () => import('../views/Data.vue')
 },
+{
+  path: '/Profile',
+  name: 'Profile',
+  component: () => import('../views/Profile.vue')
+},
 ]
 
 const router = new VueRouter({

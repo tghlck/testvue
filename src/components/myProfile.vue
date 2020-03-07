@@ -1,96 +1,62 @@
 <template>
-  <div>
-    <v-container fluid>
-      <v-row>
+  <v-container fill-height fluid grid-list-xl>
+        
+        <v-row>
         <v-subheader>
-          <div class="headline">My Dashboard</div>
+          <div class="headline">My Profile</div>
+
         </v-subheader>
       </v-row>
-      <v-row dense>
-        <v-col cols="6">
-          <v-card     
-          height="100%" width="750px"
-          color="#3f51b5" dark
-          hover ripple to="/Survey"
-          >
-            <v-card-media class="pa-0 pb-3"></v-card-media>
-            <v-card-title class="pt-0">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <div class="overline font-weight-bold mb-4">My Survey</div>
-                  <v-list-item-title class="headline mb-1">Survey</v-list-item-title>
-                  <v-list-item-subtitle>A short questionnaire.</v-list-item-subtitle>
-                </v-list-item-content>
-                <v-list-item-avatar tile size="80">
-                  <v-icon size="80px" light>mdi-clipboard-text-outline</v-icon>
-                </v-list-item-avatar>
-              </v-list-item>
-            </v-card-title>
+
+    <v-layout justify-center wrap>
+      <v-flex xs12 md8>
+        <material-card color="indigo" title="Edit Profile" text="Complete your profile">
+          <v-card>
+            <v-container py-0>
+              <v-layout wrap>
+               
+                <v-flex xs12 md6>
+                  <v-text-field label="First Name" class="purple-input" />
+                </v-flex>
+                <v-flex xs12 md6>
+                  <v-text-field label="Last Name" class="purple-input" />
+                </v-flex>
+                <v-flex xs12 md12>
+                  <v-text-field label="Adress" class="purple-input" />
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-text-field label="City" class="purple-input" />
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-text-field label="Country" class="purple-input" />
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-text-field class="purple-input" label="Postal Code" type="number" />
+                </v-flex>
+                <v-flex xs12 text-xs-right>
+                  <v-btn class="mx-0 font-weight-light" dark color="indigo">Edit Profile</v-btn>
+                </v-flex>
+              </v-layout>
+            </v-container>
           </v-card>
-        </v-col>
-         <v-col cols="6">
-            <v-card     
-          height="100%" width="750px"
-          color="#3fb584" dark
-          hover ripple to="/Data">
-            <v-card-media class="pa-0 pb-3"></v-card-media>
-            <v-card-title class="pt-0">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <div class="overline font-weight-bold mb-4">My Data</div>
-                  <v-list-item-title class="headline mb-1">Data</v-list-item-title>
-                  <v-list-item-subtitle>Collection of your personalized data.</v-list-item-subtitle>
-                </v-list-item-content>
-                <v-list-item-avatar tile size="80">
-                  <v-icon size="80px" light>mdi-chart-bar</v-icon>
-                </v-list-item-avatar>
-              </v-list-item>
-            </v-card-title>
-          </v-card>
-        </v-col>
-         <v-col cols="6">
-          <v-card     
-          height="100%" width="750px"
-          color="#b53f74" dark
-          hover ripple to="/Journal">
-            <v-card-media class="pa-0 pb-3"></v-card-media>
-            <v-card-title class="pt-0">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <div class="overline font-weight-bold mb-4">My Journal</div>
-                  <v-list-item-title class="headline mb-1">Journal</v-list-item-title>
-                  <v-list-item-subtitle>A place to keep your thoughts.</v-list-item-subtitle>
-                </v-list-item-content>
-                <v-list-item-avatar tile size="80">
-                  <v-icon size="80px" light>mdi-book-open-variant</v-icon>
-                </v-list-item-avatar>
-              </v-list-item>
-            </v-card-title>
-          </v-card>
-        </v-col>
-         <v-col cols="6">
-          <v-card 
-          height="100%" width="750px"
-          color="#b0813c" dark
-          hover ripple to="/login">
-            <v-card-media class="pa-0 pb-3"></v-card-media>
-            <v-card-title class="pt-0">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <div class="overline font-weight-bold mb-4">Logout</div>
-                  <v-list-item-title class="headline mb-1">See you soon!</v-list-item-title>
-                  <v-list-item-subtitle>Logout of your account here.</v-list-item-subtitle>
-                </v-list-item-content>
-                <v-list-item-avatar tile size="80">
-                  <v-icon size="80px" light>mdi-account-arrow-right</v-icon>
-                </v-list-item-avatar>
-              </v-list-item>
-            </v-card-title>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-  </div>
+        </material-card>
+      </v-flex>
+      <v-flex xs12 md4>
+        <material-card class="v-card-profile">
+          <v-avatar slot="offset" class="mx-auto d-block" size="130">
+            <img src="https://demos.creative-tim.com/vue-material-dashboard/img/marc.aba54d65.jpg" />
+          </v-avatar>
+          <v-card-text class="text-xs-center">
+            <h6 class="category text-gray font-weight-thin mb-3">Sample Text</h6>
+            <h4 class="card-title font-weight-light">John Doe</h4>
+            <p
+              class="card-description font-weight-light"
+            >SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT </p>
+          </v-card-text>
+        </material-card>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

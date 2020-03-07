@@ -28,15 +28,7 @@
                 <br />
               </div>
             </v-card-text>
-            <v-card-text>
-              <div class="overline font-weight-bold mb-4">Other Information</div>
-              <v-divider class="mb-3"></v-divider>
-              <div>
-                Field 1: Example
-                <br />Field 2: Example 2
-                <br />
-              </div>
-            </v-card-text>
+            <v-card-item>
            
           </v-card>
         </v-col>
@@ -88,13 +80,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    source: String
-  }
-};
-</script>
+
+
+
 
 <script>
 export default {

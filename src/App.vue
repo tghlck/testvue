@@ -49,7 +49,7 @@
             <v-list-item-title>Contact</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item to="/profile">
+        <v-list-item to="/Profile">
           <v-list-item-action>
             <v-icon>mdi-account</v-icon>
           </v-list-item-action>
@@ -83,7 +83,7 @@
       
  <v-tooltip left color="indigo">
       <template v-slot:activator="{ on }">
-        <v-btn icon dark v-on="on" to="/profile">
+        <v-btn icon dark v-on="on" to="/Profile">
         <v-icon>mdi-account</v-icon>
       </v-btn>
       </template>
