@@ -7,7 +7,7 @@
         </v-subheader>
       </v-row>
 
-      <v-card class="mx-auto text-center" color="#3f51b5" dark width="900px%">
+      <v-card class="mx-auto text-center" color="#3fb584" dark width="900px%">
         <v-card-text>
           <v-sheet color="rgba(0, 0, 0, .12)">
            <v-sparkline
@@ -27,7 +27,7 @@
         <v-divider></v-divider>
 
         <v-card-actions class="justify-center">
-          <v-btn block text to="/home">Back to Dashboard</v-btn>
+          <v-btn block text to="/">Back to Dashboard</v-btn>
         </v-card-actions>
       </v-card>
     </v-container>
