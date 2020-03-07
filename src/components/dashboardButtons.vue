@@ -11,7 +11,8 @@
           <v-card     
           height="100%" width="750px"
           color="#3f51b5" dark
-          hover ripple>
+          hover ripple
+          class="lighten-2">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
               <v-list-item three-line>

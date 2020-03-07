@@ -1,9 +1,8 @@
 <template>
   <div>
     <v-container fluid>
-    
-      <v-row justify="center">
-        <v-col cols="4">
+      <v-row justify="center" class="mt-12">
+        <v-col xs="12" sm="4" md="4">
           <v-card>
             <v-toolbar color="indigo" dark>
               <v-toolbar-title>Patient Login</v-toolbar-title>
@@ -23,7 +22,7 @@
           </v-card>
         </v-col>
 
-        <v-col cols="4">
+         <v-col xs="12" sm="4" md="4">
           <v-card>
             <v-toolbar color="indigo" dark>
               <v-toolbar-title>Physician Login</v-toolbar-title>

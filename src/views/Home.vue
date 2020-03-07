@@ -25,7 +25,7 @@ import dashboardButtons from "../components/dashboardButtons";
 // @ is an alias to /src
 
 export default {
-  name: 'Home',
+  name: "App",
   components: {
     dashboardButtons
   

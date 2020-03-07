@@ -12,7 +12,7 @@
 import Login from "../components/loginForm";
 
 export default {
-  
+  name: "App",
   components: {
     Login
   },
