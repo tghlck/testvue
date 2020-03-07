@@ -83,7 +83,7 @@
       
  <v-tooltip left color="indigo">
       <template v-slot:activator="{ on }">
-        <v-btn icon dark v-on="on">
+        <v-btn icon dark v-on="on" to="/profile">
         <v-icon>mdi-account</v-icon>
       </v-btn>
       </template>

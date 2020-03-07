@@ -11,7 +11,7 @@
           <v-card     
           height="100%" width="750px"
           color="#3f51b5" dark
-          hover ripple
+          hover ripple to="/Survey"
           class="lighten-2">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
@@ -32,7 +32,7 @@
             <v-card     
           height="100%" width="750px"
           color="#3fb584" dark
-          hover ripple>
+          hover ripple to="/Data">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
               <v-list-item three-line>
@@ -52,7 +52,7 @@
           <v-card     
           height="100%" width="750px"
           color="#b53f74" dark
-          hover ripple>
+          hover ripple to="/Journal">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
               <v-list-item three-line>
@@ -72,7 +72,7 @@
           <v-card 
           height="100%" width="750px"
           color="#b0813c" dark
-          hover ripple>
+          hover ripple to="/login">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
               <v-list-item three-line>
