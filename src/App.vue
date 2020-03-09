@@ -14,7 +14,7 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item to="/survey">
+        <v-list-item to="/Survey">
           <v-list-item-action>
             <v-icon>mdi-clipboard-text-outline</v-icon>
           </v-list-item-action>
@@ -23,7 +23,7 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item to="/data">
+        <v-list-item to="/Data">
           <v-list-item-action>
             <v-icon>mdi-chart-bar</v-icon>
           </v-list-item-action>
@@ -32,7 +32,7 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item to="/journal">
+        <v-list-item to="/Component">
           <v-list-item-action>
             <v-icon>mdi-book-open-variant</v-icon>
           </v-list-item-action>
@@ -41,7 +41,7 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item to="/contact">
+        <v-list-item to="/Contact">
           <v-list-item-action>
             <v-icon>mdi-mailbox-up</v-icon>
           </v-list-item-action>
@@ -75,7 +75,7 @@
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       
-      <v-toolbar-title class="font-italic font-weight-light"> B A L A N C E .<span> <div class="overline font-weight-bold">My Dashboard</div></span> </v-toolbar-title>
+      <v-toolbar-title class="font-italic font-weight-light"> B A L A N C E .<span> <div class="overline font-weight-bold">User Dashboard</div></span> </v-toolbar-title>
       
 <v-spacer>
 </v-spacer>
@@ -83,7 +83,7 @@
       
  <v-tooltip left color="indigo">
       <template v-slot:activator="{ on }">
-        <v-btn icon dark v-on="on" to="/Profile">
+        <v-btn icon dark v-on="on" to="/Profile" class="mr-3">
         <v-icon>mdi-account</v-icon>
       </v-btn>
       </template>
