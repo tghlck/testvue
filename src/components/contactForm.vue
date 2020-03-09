@@ -26,7 +26,6 @@
                 <br />
               </div>
             </v-card-text>
-            <v-card-item>
            
           </v-card>
         </v-col>
