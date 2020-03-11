@@ -3,7 +3,7 @@
     <v-layout>
       <v-flex justify-center>
          <v-container fluid>
-       <myComponent />
+       <pDash />
     
   
   </v-container> 
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-import myComponent from "../components/myComponent";
+import pDash from "../components/providerDashboard";
 // @ is an alias to /src
 
 export default {
   name: "App",
   components: {
-    myComponent
+    pDash
   },
 }
 </script>

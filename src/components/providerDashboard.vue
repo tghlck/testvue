@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row>
         <v-subheader>
-          <div class="headline">My Dashboard</div>
+          <div class="headline">Provider Dashboard</div>
         </v-subheader>
       </v-row>
       <v-row dense >
@@ -37,9 +37,9 @@
             <v-card-title class="pt-0">
               <v-list-item three-line>
                 <v-list-item-content>
-                  <div class="overline font-weight-bold mb-4">My Data</div>
-                  <v-list-item-title class="headline mb-1">Data</v-list-item-title>
-                  <v-list-item-subtitle>Collection of your personalized data.</v-list-item-subtitle>
+                  <div class="overline font-weight-bold mb-4">Data</div>
+                  <v-list-item-title class="headline mb-1">My Data</v-list-item-title>
+                  <v-list-item-subtitle>Collection of current patient's data.</v-list-item-subtitle>
                 </v-list-item-content>
                 <v-list-item-avatar tile size="80">
                   <v-icon size="80px" light>mdi-chart-bar</v-icon>
@@ -57,12 +57,15 @@
             <v-card-title class="pt-0">
               <v-list-item three-line>
                 <v-list-item-content>
-                  <div class="overline font-weight-bold mb-4">Profile & Contact Information</div>
-                  <v-list-item-title class="headline mb-1">My Provider</v-list-item-title>
-                  <v-list-item-subtitle> See your healthcare provider's <br /> profile & contact information.</v-list-item-subtitle>
+                  <div class="overline font-weight-bold mb-4">Current Patient's Data</div>
+                  <v-list-item-title class="headline mb-1">My Patient's</v-list-item-title>
+                  <v-list-item-subtitle> 
+                    See a list of your 
+                     <br /> 
+                     current patient's.</v-list-item-subtitle>
                 </v-list-item-content>
                 <v-list-item-avatar tile size="80">
-                  <v-icon size="80px" light> mdi-medical-bag </v-icon>
+                  <v-icon size="80px" light> account-group </v-icon>
                 </v-list-item-avatar>
               </v-list-item>
             </v-card-title>
@@ -72,14 +75,14 @@
           <v-card 
           height="100%" width="750px"
           color="#b0813c" dark
-          hover ripple to="/Profile">
+          hover ripple to="/login">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
               <v-list-item three-line>
                 <v-list-item-content>
                   <div class="overline font-weight-bold mb-4">My Profile</div>
-                  <v-list-item-title class="headline mb-1">User Account</v-list-item-title>
-                  <v-list-item-subtitle>View or edit your profile here.</v-list-item-subtitle>
+                  <v-list-item-title class="headline mb-1">Provider Account</v-list-item-title>
+                  <v-list-item-subtitle>View or edit how your patient's see your profile.</v-list-item-subtitle>
                 </v-list-item-content>
                 <v-list-item-avatar tile size="80">
                   <v-icon size="80px" light>mdi-account</v-icon>
