@@ -3,6 +3,15 @@
     <v-layout>
       <v-flex justify-center>
          <v-container fluid>
+
+  <v-row>
+      <v-col cols="12">
+        <v-img src="../assets/Balance-2.png" contain max-height="200px"> </v-img>
+      
+      </v-col>
+
+    </v-row>
+
        <pDash />
     
   
