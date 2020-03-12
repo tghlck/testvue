@@ -3,7 +3,7 @@
     <v-layout>
       <v-flex justify-center>
          <v-container fluid>
-       <Data />
+       <providerData />
     
   
   </v-container> 
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-import Data from "../components/myData";
+import providerData from "../components/providerData";
 // @ is an alias to /src
 
 export default {
   name: "App",
   components: {
-    Data
+    providerData
   },
 }
 </script>

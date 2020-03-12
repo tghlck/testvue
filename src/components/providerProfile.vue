@@ -42,8 +42,8 @@
           <v-row>
             <v-col xs="12">
 
-   <v-btn class="mx-3 my-2 font-weight-light" to="/Survey" dark color="#3f51b5">My Survey</v-btn>
-   <v-btn class="mx-3 my-2 font-weight-light" to="/Data" dark color="#3fb584">My Data</v-btn>
+   <v-btn class="mx-3 my-2 font-weight-light" to="/pDash" dark color="#3f51b5">Back to Dashboard</v-btn>
+   
    
             </v-col>
           </v-row>

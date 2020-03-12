@@ -4,7 +4,7 @@
       <v-flex xs12 justify-center>
          <v-container fluid>
     <v-row>
-      <myProfile />
+      <providerProfile />
     </v-row>
   </v-container> 
     
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-import myProfile from "../components/myProfile";
+import providerProfile from "../components/providerProfile";
 // @ is an alias to /src
 
 export default {
   name: "App",
   components: {
-    myProfile
+    providerProfile
   
   }
 }

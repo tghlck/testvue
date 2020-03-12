@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row>
         <v-subheader>
-          <div class="headline">My Data</div>
+          <div class="headline">Provider's Data</div>
         </v-subheader>
       </v-row>
 
@@ -27,7 +27,7 @@
         <v-divider></v-divider>
 
         <v-card-actions class="justify-center">
-          <v-btn block text to="/Home">Back to Dashboard</v-btn>
+          <v-btn block text to="/pDash">Back to Dashboard</v-btn>
         </v-card-actions>
       </v-card>
     </v-container>
