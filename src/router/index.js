@@ -45,6 +45,16 @@ const routes = [
   name: 'providerDash',
   component: () => import('../views/ProviderDash.vue')
 },
+{
+  path: '/providerProfile',
+  name: 'providerProfile',
+  component: () => import('../views/providerProfile.vue')
+},
+{
+  path: '/providerData',
+  name: 'providerData',
+  component: () => import('../views/providerData.vue')
+},
 ]
 
 const router = new VueRouter({

@@ -32,7 +32,7 @@
             <v-card     
           height="100%" width="750px"
           color="#3fb584" dark
-          hover ripple to="">
+          hover ripple to="/providerData">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
               <v-list-item three-line>
@@ -52,7 +52,7 @@
           <v-card     
           height="100%" width="750px"
           color="#b53f74" dark
-          hover ripple to="">
+          hover ripple to="/Patients">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
               <v-list-item three-line>
@@ -72,7 +72,7 @@
           <v-card 
           height="100%" width="750px"
           color="#b0813c" dark
-          hover ripple to="">
+          hover ripple to="/providerProfile">
             <v-card-media class="pa-0 pb-3"></v-card-media>
             <v-card-title class="pt-0">
               <v-list-item three-line>

@@ -1,5 +1,7 @@
 <template>
-  <v-container fill-height fluid grid-list-xl>
+
+
+       <v-container fill-height fluid grid-list-xl>
   
 
     <v-layout justify-center wrap>
@@ -7,52 +9,11 @@
         
       
           <v-card height="400px">
-             <v-toolbar color="#b53f74" dark>
-              <v-toolbar-title>My Provider</v-toolbar-title>
+             <v-toolbar color="#b53f74" class="mb-5" dark>
+              <v-toolbar-title>Provider Profile</v-toolbar-title>
               <v-spacer />
             </v-toolbar>
-            <v-container>
-              <v-layout wrap>
-               
-                <v-flex xs12 md6>
-                  <v-text-field label="First Name" class="purple-input" />
-                </v-flex>
-                <v-flex xs12 md6>
-                  <v-text-field label="Last Name" class="purple-input" />
-                </v-flex>
-                <v-flex xs12 md12>
-                  <v-text-field label="Address" class="purple-input" readonly="yes" />
-                </v-flex>
-                <v-flex xs12 md4>
-                  <v-text-field label="City" class="purple-input" />
-                </v-flex>
-                <v-flex xs12 md4>
-                  <v-text-field label="State" class="purple-input" />
-                </v-flex>
-                <v-flex xs12 md4>
-                  <v-text-field class="purple-input" label="Postal Code" type="number" />
-                </v-flex>
-              </v-layout>
-            </v-container>
-          </v-card>
-          <v-spacer />
-          <v-row>
-            <v-col xs="12">
-
-   <v-btn class="mx-3 my-2 font-weight-light" to="/Contact" dark color="#b53f74">Contact Me</v-btn>
-   <v-btn class="mx-3 my-2 font-weight-light" to="/Home" dark color="#3f51b5">Back to Dashboard</v-btn>
-   
-            </v-col>
-          </v-row>
-
-           
-          
-      </v-flex>
-      <v-flex xs12 md4>
-        
-        <v-card class="pa-4" height="400px" outlined>
-         
-        <material-card class="v-card-profile">
+             <material-card class="v-card-profile">
           <v-avatar slot="offset" class="mx-auto d-block" size="130">
             <img src="https://capenetworks.com/static/images/testimonials/user-icon.svg" />
           </v-avatar>
@@ -64,8 +25,22 @@
             >SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT </p>
           </v-card-text>
         </material-card>
-        </v-card>
+
+          </v-card>
+          <v-spacer />
+          <v-row>
+            <v-col xs="12">
+
+   <v-btn class="mx-3 my-2 font-weight-light" to="/Contact" dark color="#b53f74">Contact</v-btn>
+   <v-btn class="mx-3 my-2 font-weight-light" to="/Home" dark color="#3f51b5">Back to Dashboard</v-btn>
+   
+            </v-col>
+          </v-row>
+
+           
+          
       </v-flex>
+    
     </v-layout>
   </v-container>
 </template>
